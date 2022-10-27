@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class BookInformation {
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
+        // change the .java to generate conflicts
 
         Book myBook = new Book();
         Encyclopedia myEncyclopedia = new Encyclopedia();
