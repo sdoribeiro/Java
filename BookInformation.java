@@ -6,6 +6,8 @@ public class BookInformation {
 
         Book myBook = new Book();
         Encyclopedia myEncyclopedia = new Encyclopedia();
+		// Creating a conflict to solve on Github
+		
 
         String title, author, publisher, publicationDate;
         String eTitle, eAuthor, ePublisher, ePublicationDate, edition;
