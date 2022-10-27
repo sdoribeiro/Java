@@ -22,13 +22,13 @@ public class BookInformation {
         ePublicationDate = scnr.nextLine();
         edition = scnr.nextLine();
         numVolumes = scnr.nextInt();
-
+        // set input data
         myBook.setTitle(title);
         myBook.setAuthor(author);
         myBook.setPublisher(publisher);
         myBook.setPublicationDate(publicationDate);
         myBook.printInfo();
-
+        // set input data
         myEncyclopedia.setTitle(eTitle);
         myEncyclopedia.setAuthor(eAuthor);
         myEncyclopedia.setPublisher(ePublisher);
