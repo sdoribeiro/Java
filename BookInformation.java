@@ -10,12 +10,12 @@ public class BookInformation {
         String title, author, publisher, publicationDate;
         String eTitle, eAuthor, ePublisher, ePublicationDate, edition;
         int numVolumes;
-
+        // input data of book
         title = scnr.nextLine();
         author = scnr.nextLine();
         publisher = scnr.nextLine();
         publicationDate = scnr.nextLine();
-
+        // input data of Encyclopedia
         eTitle = scnr.nextLine();
         eAuthor = scnr.nextLine();
         ePublisher = scnr.nextLine();
